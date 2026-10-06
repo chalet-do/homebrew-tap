@@ -1,0 +1,21 @@
+{
+    "version": "0.1.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/sschuez/chalet-cli/releases/download/v0.1.0/chalet_0.1.0_windows_amd64.zip",
+            "bin": [
+                "chalet.exe"
+            ],
+            "hash": "4f1f42fdfa2d2ae2177079d6d218ec45410bd8e5f3302c0beb1b1a0570248440"
+        },
+        "arm64": {
+            "url": "https://github.com/sschuez/chalet-cli/releases/download/v0.1.0/chalet_0.1.0_windows_arm64.zip",
+            "bin": [
+                "chalet.exe"
+            ],
+            "hash": "c548a3b733385f815a269cf7a21b2837e7bcfd558b6c50bb18d1403ab91e3fe0"
+        }
+    },
+    "homepage": "https://github.com/sschuez/chalet-cli",
+    "description": "Connect Claude to your Chalet"
+}
