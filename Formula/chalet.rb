@@ -5,20 +5,20 @@
 class Chalet < Formula
   desc "Connect Claude to your Chalet"
   homepage "https://github.com/chalet-do/chalet-cli"
-  version "0.3.2"
+  version "0.3.4"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/chalet-do/chalet-cli/releases/download/v0.3.2/chalet_0.3.2_darwin_amd64.tar.gz"
-      sha256 "065cbe12e7dfb696c7df02c45ef71d7f178bb6116fa87e1b50822a5316662c0f"
+      url "https://github.com/chalet-do/chalet-cli/releases/download/v0.3.4/chalet_0.3.4_darwin_amd64.tar.gz"
+      sha256 "b6208488a00b2df6582de9041ffa2d7b834a93cb460d494c0cdc54e4c0f802e9"
 
       define_method(:install) do
         bin.install "chalet"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/chalet-do/chalet-cli/releases/download/v0.3.2/chalet_0.3.2_darwin_arm64.tar.gz"
-      sha256 "64e24bee8e25dbb3e36192c313ff915b472a37467c6cc05e54fd71fb8a6329e7"
+      url "https://github.com/chalet-do/chalet-cli/releases/download/v0.3.4/chalet_0.3.4_darwin_arm64.tar.gz"
+      sha256 "7ba212e612cb0bea4fbb3e95c017588f9972be5a6ef34bb6f8252c7dc84b05e6"
 
       define_method(:install) do
         bin.install "chalet"
@@ -28,15 +28,15 @@ class Chalet < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/chalet-do/chalet-cli/releases/download/v0.3.2/chalet_0.3.2_linux_amd64.tar.gz"
-      sha256 "ba129b4fbfe712394e79732008650cd1a0bea519863af5cf64e4d516b7c857bb"
+      url "https://github.com/chalet-do/chalet-cli/releases/download/v0.3.4/chalet_0.3.4_linux_amd64.tar.gz"
+      sha256 "615130b8f1b5c9c95af9d6b742908c1cd9583a10b8e538f36737fb568c956a77"
       define_method(:install) do
         bin.install "chalet"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/chalet-do/chalet-cli/releases/download/v0.3.2/chalet_0.3.2_linux_arm64.tar.gz"
-      sha256 "1a4f31592f97042056d0bbfabc734acbabd1be37f5b890e3b3a4563c76ba6427"
+      url "https://github.com/chalet-do/chalet-cli/releases/download/v0.3.4/chalet_0.3.4_linux_arm64.tar.gz"
+      sha256 "19a8fb5e4d718474bfccb4ee13e6ff0d94153289459820129aa2b52a6c4d2da1"
       define_method(:install) do
         bin.install "chalet"
       end
