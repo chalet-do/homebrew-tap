@@ -1,19 +1,19 @@
 {
-    "version": "0.3.4",
+    "version": "0.4.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chalet-do/chalet-cli/releases/download/v0.3.4/chalet_0.3.4_windows_amd64.zip",
+            "url": "https://github.com/chalet-do/chalet-cli/releases/download/v0.4.0/chalet_0.4.0_windows_amd64.zip",
             "bin": [
                 "chalet.exe"
             ],
-            "hash": "f41893dfa26528260846d246445bf62869040483c92d273fc69a54c6d78dfad6"
+            "hash": "d3d0903b49d56b6f9580d0f126776975056195224967be272a9e8e01fc7aedc3"
         },
         "arm64": {
-            "url": "https://github.com/chalet-do/chalet-cli/releases/download/v0.3.4/chalet_0.3.4_windows_arm64.zip",
+            "url": "https://github.com/chalet-do/chalet-cli/releases/download/v0.4.0/chalet_0.4.0_windows_arm64.zip",
             "bin": [
                 "chalet.exe"
             ],
-            "hash": "0fc6d3486d38676fdf5d44efd7c63d0d987872391790e9ae1363b367e71e4949"
+            "hash": "2a4c62937486034f32520a42c5f7ea89b0bd98f0caf68bb66fb2417db6fea20f"
         }
     },
     "homepage": "https://github.com/chalet-do/chalet-cli",
